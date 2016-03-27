@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/background_floating_material_light"
+    tools:context=".MainActivity"
+    android:id="@+id/mainAct">
+<!--  emulator: ERROR: x86 emulation currently requires hardware acceleration! -->
+
+
+    
+	<!-- HOME SCREEN -->
+	<!-- HOME SCREEN IMAGE -->
+    
+	<ImageView
+
+        android:id="@+id/home_screen_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/team_2_txt" />
+	
+	<!-- home_screen_txt -->	
+	<TextView
+		android:id="@+id/home_screen_txt"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="AUS"
+		android:textSize="25dp"
+		android:textColor="@color/orange"
+		android:typeface="serif"
+		android:gravity="center"
+		android:padding="10dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/team_2_img"
+        android:layout_toEndOf="@+id/scorecard_btn" />
+		
+	<!-- newsFeed_btn -->	
+    <Button
+        android:id="@+id/newsFeed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News Feed"
+        android:textIsSelectable="true"
+        android:onClick="viewScorecard"        
+        android:textColor="@color/black"
+        android:layout_below="@+id/team_1_txt"
+        android:layout_centerHorizontal="true" />
+    
+	<!-- services -->
+	<!-- 
+    <ImageView
+        android:id="@+id/icon_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_launcher"
+        android:layout_above="@+id/but_services"
+        android:layout_alignStart="@+id/but_services" />
+
+    <Button
+        android:id="@+id/but_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_services"
+        android:textIsSelectable="true"
+        android:textColor="@color/deeporange100"
+        android:onClick="goToServices"
+        style="@style/btnStyleOrange"
+        android:layout_alignTop="@+id/but_members"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/title_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/asa"
+        android:textColor="@color/deeporangeA200"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/deeporange500"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/icon_services" />
+ -->    <!-- style="@style/btnStyleOrange"-->
+
+    <!--android:textColor="@color/deeporange100"-->
+    <!--android:shadowColor="@color/button_material_light" -->
+
+
+</RelativeLayout>
