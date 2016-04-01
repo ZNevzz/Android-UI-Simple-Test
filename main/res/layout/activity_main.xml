@@ -8,7 +8,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="@color/background_floating_material_light"
     tools:context=".MainActivity"
-    android:id="@+id/mainAct">
+    android:id="@+id/mainActivity">
 <!--  emulator: ERROR: x86 emulation currently requires hardware acceleration! -->
 
 
@@ -55,50 +55,5 @@
         android:textColor="@color/black"
         android:layout_below="@+id/team_1_txt"
         android:layout_centerHorizontal="true" />
-    
-	<!-- services -->
-	<!-- 
-    <ImageView
-        android:id="@+id/icon_services"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingBottom="4dp"
-        android:contentDescription="@null"
-        android:src="@drawable/ic_launcher"
-        android:layout_above="@+id/but_services"
-        android:layout_alignStart="@+id/but_services" />
-
-    <Button
-        android:id="@+id/but_services"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/but_services"
-        android:textIsSelectable="true"
-        android:textColor="@color/deeporange100"
-        android:onClick="goToServices"
-        style="@style/btnStyleOrange"
-        android:layout_alignTop="@+id/but_members"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:id="@+id/title_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/asa"
-        android:textColor="@color/deeporangeA200"
-        android:textAllCaps="true"
-        android:textAlignment="center"
-        android:textColorHighlight="@color/deeporange500"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/icon_services" />
- -->    <!-- style="@style/btnStyleOrange"-->
-
-    <!--android:textColor="@color/deeporange100"-->
-    <!--android:shadowColor="@color/button_material_light" -->
-
-
+   
 </RelativeLayout>
