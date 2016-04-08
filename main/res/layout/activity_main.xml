@@ -55,5 +55,19 @@
         android:textColor="@color/black"
         android:layout_below="@+id/team_1_txt"
         android:layout_centerHorizontal="true" />
+	
+	<!-- squad btn -->	
+    <Button
+        android:id="@+id/squad_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T20 Squads"
+        android:textIsSelectable="true"
+        android:onClick="viewSquad"        
+        android:textColor="@color/black"
+        android:layout_below="@+id/newsFeed_btn"
+        android:layout_centerHorizontal="true" />
    
+   
+	
 </RelativeLayout>
