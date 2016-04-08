@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
     public static final String TAG="MAIN_ACTIVITY";
-	
+	Intent intent;
 	//views
 	private Textview textview;
     private Button button;
@@ -30,7 +30,15 @@ public class MainActivity extends Activity {
 	public void viewNewsFeed(View view) {
 
 		Log.d(TAG, "viewNewsFeed clicked");
-		Intent intent = new Intent(this, NewsFeedActivity.class); 
+		intent = new Intent(this, NewsFeedActivity.class); 
+		//intent.putExtra(TAG+"-",);
+		startActivity(intent);
+    }
+	
+	public void viewSquad(View view) {
+
+		Log.d(TAG, "viewNewsFeed clicked");
+		intent = new Intent(this, SquadActivity.class); 
 		//intent.putExtra(TAG+"-",);
 		startActivity(intent);
     }
