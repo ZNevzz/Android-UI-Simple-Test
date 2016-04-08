@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 	
 	public void viewSquad(View view) {
 
-		Log.d(TAG, "viewNewsFeed clicked");
+		Log.d(TAG, "viewSquad clicked");
 		intent = new Intent(this, SquadActivity.class); 
 		//intent.putExtra(TAG+"-",);
 		startActivity(intent);
